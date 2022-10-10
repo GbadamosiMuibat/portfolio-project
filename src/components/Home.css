@@ -1,0 +1,34 @@
+.home{
+    width: 100%;
+    height:100vh;
+    background-color: var(--primary-colour);
+}
+.header{
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.header-icon{
+     display: flex;
+     width: 55px;
+     height: 55px;
+     background-color: var(--grey-color);
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     font-size: 1.2rem;
+     color: var(--text-color);
+     cursor: pointer;
+}
+.header-icon:hover{
+    background-color: var(--grey-color1);
+}
+.home-text{
+    padding-top: 100px;
+}
+.name{
+    text-align: center;
+}
